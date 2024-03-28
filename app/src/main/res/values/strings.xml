@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RunToJump</string>
+    <string name="night">夜间</string>
+    <string name="day">白天</string>
+    <string name="pause">暂停</string>
+    <string name="conti">继续</string>
+    <string name="one">冒险级</string>
+    <string name="two">王者级</string>
+    <string name="three">地狱级</string>
+    <string name="replay">再来一遍</string>
+    <string name="backMenu">返回主菜单</string>
+
+    <string name="copyRight">©%1$s ThinkBear</string>
+</resources>
