@@ -213,12 +213,12 @@ public class MyRunnable implements Runnable {
 		// 绘制右上角的时间文本
 		String time = (System.currentTimeMillis() - startTime) / 1000f + "\'时间";
 		float time_w = paint.measureText(time);
-		canvas.drawText(time, w - time_w, -paint.ascent(), paint);
+		canvas.drawText(time, w - time_w - 25, -paint.ascent(), paint);
 
 		// 绘制右上角的柱子文本
 		String countStr = passCount + "柱子";
 		float count_w = paint.measureText(countStr);
-		canvas.drawText(countStr, w - count_w, -(paint.ascent() * 2), paint);
+		canvas.drawText(countStr, w - count_w - 25, -(paint.ascent() * 2), paint);
 
 		//更新right和left值，实现柱子的移动
 		this.obstacleRect.right = this.obstacleRect.right - this.spacing;
