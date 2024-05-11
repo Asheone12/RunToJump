@@ -26,7 +26,6 @@ public class StartActivity extends Activity {
     private TextView one = null;
     private TextView two = null;
     private TextView three = null;
-    private TextView copyRight = null;
     private ImageView logo = null;
     private AnimationDrawable ad = null;
     private MyClickEvent myClickEvent = null;
@@ -38,7 +37,6 @@ public class StartActivity extends Activity {
         this.one = (TextView) super.findViewById(R.id.one);
         this.two = (TextView) super.findViewById(R.id.two);
         this.three = (TextView) super.findViewById(R.id.three);
-        this.copyRight = (TextView) super.findViewById(R.id.copyRight);
         this.logo = (ImageView) super.findViewById(R.id.logo);
         this.ad = (AnimationDrawable) this.logo.getBackground();
         this.myClickEvent = new MyClickEvent();
@@ -46,7 +44,6 @@ public class StartActivity extends Activity {
         this.two.setOnClickListener(this.myClickEvent);
         this.three.setOnClickListener(this.myClickEvent);
 
-        this.copyRight.setText(super.getString(R.string.copyRight, String.valueOf(Calendar.getInstance().get(Calendar.YEAR))));
     }
 
     @Override

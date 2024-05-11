@@ -49,16 +49,4 @@
             android:textColor="@color/black" />
 
     </LinearLayout>
-
-    <TextView
-        android:id="@+id/copyRight"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/black11"
-        android:padding="@dimen/padd_among"
-        android:layout_margin="@dimen/padd_small"
-        android:gravity="center"
-        android:textColor="@color/bluebb"
-        android:textStyle="bold"
-        android:textSize="@dimen/font_size_c"/>
 </LinearLayout>
