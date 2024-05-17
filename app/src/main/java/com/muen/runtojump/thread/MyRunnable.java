@@ -96,7 +96,7 @@ public class MyRunnable implements Runnable {
 		this.figureY = 2 * this.h / 3 - this.figuresHeight;
 		this.figureYJumpFlag = this.figureY;
 		this.figureYJumpAmong = this.figureY - this.figuresHeight / 2;
-		this.figureYJumpMax = this.figureY - this.figuresHeight * 1.4f;
+		this.figureYJumpMax = this.figureY - this.figuresHeight * 1.5f;
 		//初始化背景的Y轴坐标，和X轴的最大坐标
 		this.bgMainY = this.figureY + this.figuresHeight / 2;
 		this.bgMainXMax = -this.bgMain.getWidth() + this.w;
