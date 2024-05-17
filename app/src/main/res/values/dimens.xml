@@ -1,13 +1,13 @@
 <resources>
 
     <!-- 界面字体大小 -->
-    <dimen name="font_size_a">12sp</dimen>
-    <dimen name="font_size_b">13sp</dimen>
-    <dimen name="font_size_c">15sp</dimen>
-    <dimen name="font_size_d">17sp</dimen>
-    <dimen name="font_size_e">19sp</dimen>
-    <dimen name="font_size_f">22sp</dimen>
-    <dimen name="font_size_g">25sp</dimen>
+    <dimen name="font_size_a">12dp</dimen>
+    <dimen name="font_size_b">13dp</dimen>
+    <dimen name="font_size_c">15dp</dimen>
+    <dimen name="font_size_d">17dp</dimen>
+    <dimen name="font_size_e">19dp</dimen>
+    <dimen name="font_size_f">22dp</dimen>
+    <dimen name="font_size_g">25dp</dimen>
 
     <!-- 边距大小 -->
     <dimen name="padd_small">3dp</dimen>
