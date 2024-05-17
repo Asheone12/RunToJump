@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <SurfaceView
         android:id="@+id/main"
@@ -20,22 +20,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginBottom="20dp"
             android:background="@drawable/bg_button"
-            android:layout_marginStart="25dp"
             android:padding="@dimen/padd_small"
             android:text="@string/night"
             android:textColor="@color/blackbb"
             android:textSize="@dimen/font_size_c"
             android:textStyle="bold" />
-        
-         <TextView
+
+        <TextView
             android:id="@+id/gameStatu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
             android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="20dp"
             android:background="@drawable/bg_button"
-             android:layout_marginEnd="25dp"
             android:padding="@dimen/padd_small"
             android:text="@string/pause"
             android:textColor="@color/blackbb"
