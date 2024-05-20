@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">RunToJump</string>
+    <string name="app_name">跨栏</string>
     <string name="night">夜间</string>
     <string name="day">白天</string>
     <string name="pause">暂停</string>
@@ -9,6 +9,4 @@
     <string name="three">地狱级</string>
     <string name="replay">再来</string>
     <string name="backMenu">返回菜单</string>
-
-    <string name="copyRight">©%1$s ThinkBear</string>
 </resources>
