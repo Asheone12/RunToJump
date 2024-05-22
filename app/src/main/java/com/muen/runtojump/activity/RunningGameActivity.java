@@ -122,9 +122,13 @@ public class RunningGameActivity extends Activity implements
 					break;
 				case R.id.gameStatu://暂定或继续游戏操作
 					run.setPause(!run.isPause());
-					gameStatu.setText(run.isPause() ? R.string.conti
-							: R.string.pause);
-
+					if(run.isPause()){
+						timeStatu.setVisibility(View.INVISIBLE);
+						gameStatu.setText(R.string.conti);
+					}else{
+						timeStatu.setVisibility(View.VISIBLE);
+						gameStatu.setText(R.string.pause);
+					}
 					break;
 			}
 		}
